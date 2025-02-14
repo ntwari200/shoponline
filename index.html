@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>3D Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-gallery">
+            <h2>Featured Products</h2>
+            <div class="product-container">
+                <div class="product" id="product1">
+                    <img src="https://via.placeholder.com/250" alt="Product 1">
+                    <div class="product-details">
+                        <h3>Product 1</h3>
+                        <p>$29.99</p>
+                        <button onclick="addToCart('Product 1')">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product" id="product2">
+                    <img src="https://via.placeholder.com/250" alt="Product 2">
+                    <div class="product-details">
+                        <h3>Product 2</h3>
+                        <p>$49.99</p>
+                        <button onclick="addToCart('Product 2')">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product" id="product3">
+                    <img src="https://via.placeholder.com/250" alt="Product 3">
+                    <div class="product-details">
+                        <h3>Product 3</h3>
+                        <p>$19.99</p>
+                        <button onclick="addToCart('Product 3')">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 3D Shop - All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
